@@ -14,9 +14,15 @@ module.exports = defineConfig({
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
   ],
-  settings: {
-    next: {
-      rootDir: ['apps/*/'],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
+  },
+  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'react'],
+  rules: {
+    '@typescript-eslint/no-var-requires': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
 });

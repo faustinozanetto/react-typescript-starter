@@ -19,7 +19,20 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "allowJs": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@styles": ["styles/*"]
+    }
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "transpileOnly": true,
+    "transpiler": "ts-node/transpilers/swc",
+    "files": true,
+    "compilerOptions": {
+      "module": "esnext",
+      "isolatedModules": false
+    }
+  }
 }

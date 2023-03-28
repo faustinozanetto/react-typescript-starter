@@ -18,6 +18,7 @@
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
+    "allowJs": true,
     "strict": true
   },
   "exclude": ["node_modules"]

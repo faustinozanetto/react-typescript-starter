@@ -1,7 +1,7 @@
 <h1 align="center">React Typescript Starter</h1>
 
 <div align="center">
-  <img src="assets/marketing/gardentify-showcase.png" alt="Gardentify Showcase" />
+  <img src="public/images/showcase.png" alt="Showcase" />
   <hr/>
   <p>
     <a href="https://www.npmjs.com/package/react-typescript-starter" target="_blank">
